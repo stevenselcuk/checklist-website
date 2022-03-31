@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  justify-content: flex-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 720px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+.logo {
+  width: 64px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0px 5px 8px rgb(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-out;
+}
+.logo:hover {
+transform: scale(1.03);
+  box-shadow: 0px 5px 14px rgba(250, 121, 0, 0.6);
+}
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+  max-width: 900px;
+}
+}
+
+.logolink img {
+  display: block;
+  width: 64px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  transition: fill .2s cubic-bezier(.645,.045,.355);
+  transition: 0.2s var(--easing);
+}
+
+.logotitle {
+  display: block;
+  font-size: var(--font-size-mini);
+  color: var(--brand-grey-light);
+  margin-top: 10px;
+}
+
+.logolink:hover svg,
+.logolink:focus svg {
+  fill: var(--brand-cyan);
+}
+
+.logolink:hover .logotitle,
+.logolink:focus .logotitle {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.menu > a {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.menu > div {
+  margin-left: 30px;
+}
+
+.ctaButton {
+  background: rgb(34,35,39);
+  background: radial-gradient(circle, rgba(34,35,39,1) 0%, rgb(42, 45, 50) 80%, rgba(34,35,39,1) 100%);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.3);
+  transition: all 0.3s ease-out;
+}
+
+.ctaButton:hover {
+  color: #fff;
+  box-shadow: 0px 1px 12px rgb(0, 0, 0, 0.4);
+}
