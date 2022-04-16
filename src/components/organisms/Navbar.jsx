@@ -23,7 +23,6 @@ const Navbar = () => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
 
-
     return () => {
       window.removeEventListener('scroll', () => handleScroll)
     }
@@ -41,7 +40,7 @@ const Navbar = () => {
       </Link>
       <div className={styles.menu}>
         <Link to="/how-to/" activeClassName={activeClassName}>
-          How to
+          How to?
         </Link>
         <Link to="/support/" activeClassName={activeClassName}>
           Support
@@ -52,10 +51,13 @@ const Navbar = () => {
         <Link to="/changelog/" activeClassName={activeClassName}>
           Changelog
         </Link>
-        <Link to={basics.storeUrl} activeClassName={activeClassName} className={styles.ctaButton}>
+        <Link
+          to={basics.storeUrl}
+          activeClassName={activeClassName}
+          className={styles.ctaButton}
+        >
           {basics.ctaText}
         </Link>
-        
       </div>
     </Animation>
   )

@@ -1,16 +1,17 @@
 {
   "basics": {
-    "name": "checklist",
+    "name": "Checklist",
     "label": "Checklist for General Aviation Pilots",
     "storeUrl": "https://apps.apple.com/us/app/checklist-for-general-aviation/id1616540796",
-    "ctaText": "Get the App",
-    "summary": "for general aviation pilots. on your cockpit.",
+    "ctaText": "Download",
+    "ctaDetails": "Get Checklist App on the App Store",
+    "summary": "for general aviation pilots. on your cockpit iPad.",
     "picture": "../src/images/AppIcon.png",
     "logo": "../src/images/AppIcon.png",
     "email": "stevenjselcuk@gmail.com",
-    "website": "https://garlic.netlify.com",
+    "website": "https://checklist.netlify.com",
     "isOpenSource": true,
-    "repo": "https://github.com/stevenselcuk/garlic",
+    "repo": "https://github.com/stevenselcuk/checklist",
     "profiles": [
       {
         "network": "Twitter",

@@ -4,8 +4,8 @@
   img: ../src/images/product.png
   productImg: ../src/images/product.png
   downloadBadgeDark: ../src/images/downloadBadgeDarg.svg
-  repo: https://github.com/stevenselcuk/garlic
-  bugs: https://github.com/stevenselcuk/garlic/issues
+  repo: https://github.com/stevenselcuk/checklist
+  bugs: https://github.com/stevenselcuk/checklist/issues
 
   availability:
     status: false

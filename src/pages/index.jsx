@@ -21,13 +21,10 @@ function Home({ pageContext }) {
       <SEO title={basics.name} description={basics.label} />
       <div className={styles.hero}>
         <div className={styles.details}>
-          <div className={styles.hugetitle}>checklist</div>
+          <div className={styles.hugetitle}>{basics.name}</div>
           <div className={styles.desc}>{basics.summary}</div>
           <div className={styles.badge}>
-            <a
-              href={basics.storeUrl}
-              title="Get Checklist App on the App Store"
-            >
+            <a href={basics.storeUrl} title={basics.ctaDetails}>
               <DownloadBadge />
             </a>
           </div>
@@ -36,8 +33,8 @@ function Home({ pageContext }) {
         <img
           src={image}
           className={styles.productimage}
-          alt="iPad Pro 5th generation"
-          title="Checklist for General Aviation Pilots"
+          alt="iPad Pro 5th generation mockup"
+          title={basics.ctaDetails}
         />
       </div>
     </>
