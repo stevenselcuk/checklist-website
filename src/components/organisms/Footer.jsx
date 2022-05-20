@@ -32,7 +32,7 @@ const FooterMarkup = ({ meta, year }) => (
         <a className="u-url" href={meta.url}>
           {meta.title}
         </a>{' '}
-        &mdash; Steven J. Selcuk
+        &mdash; The Checklist is created by an aviation lover indie developer. Proudly. Steven J. Selcuk
       </small>
     </p>
   </footer>
